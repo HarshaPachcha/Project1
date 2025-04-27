@@ -1,7 +1,4 @@
 # Project1
-Here's a **README** for your GitHub repository:
-
----
 
 # LinkedIn Job Trend Analysis
 
@@ -55,9 +52,10 @@ pip install requests beautifulsoup4 pandas matplotlib seaborn
 You can adjust the `keywords` and `location` in the script to scrape different job roles and locations. For example, to scrape for **Software Engineer** jobs in **California**, change the values as shown below:
 
 ```python
-keywords = "Software Engineer"
-location = "California"
+keywords = "Data Analyst"
+location = ""
 ```
+Location is empty because to scrap information from different locations for the role of data analyst
 
 ### **4. Run the Script**
 
@@ -78,7 +76,6 @@ The script will generate the following output files:
 
 - **Heatmap**: The script will generate a heatmap showing the top 10 skills and their demand across different cities.
 
----
 
 ## 📝 **Project Structure**
 
@@ -92,7 +89,6 @@ linkedin-job-trend-analysis/
 └── README.md                   # Project README
 ```
 
----
 
 ## 📊 **Data Visualization**
 
@@ -104,7 +100,7 @@ The analysis includes a **heatmap** showing the demand for top 10 skills across 
 - The y-axis represents the **cities**.
 - The values in the heatmap represent the **demand** for each skill in each city.
 
----
+
 
 ## 🧰 **How It Works**
 
@@ -114,32 +110,4 @@ The analysis includes a **heatmap** showing the demand for top 10 skills across 
 4. **Visualization**: A heatmap is generated to show the skill demand trends across cities.
 5. **Exporting Data**: All the results are saved in CSV files for further analysis.
 
----
 
-## 📝 **Limitations & Notes**
-
-- **LinkedIn Terms of Service**: Web scraping of LinkedIn may violate their terms of service. This script is for educational purposes, and scraping should be done with caution.
-- **Dynamic Content**: LinkedIn pages are dynamic, and the structure of the HTML might change over time. You may need to adjust the script if LinkedIn changes their page layout.
-- **Rate Limiting**: The script includes a `time.sleep(1)` delay between requests to avoid being blocked for making too many requests in a short time.
-
----
-
-## 📢 **Contributing**
-
-Feel free to contribute to this project by submitting issues or pull requests. If you have suggestions for improving the analysis, or if you add support for additional job roles, feel free to share!
-
----
-
-## 💬 **Questions or Feedback?**
-
-If you have any questions or feedback, please open an issue or contact me directly.
-
----
-
-## 🤝 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you'd like any adjustments! 😊
