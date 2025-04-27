@@ -1,6 +1,6 @@
 # Project1
 
-# LinkedIn Job Trend Analysis
+# LinkedIn Job Trend Analysis_ Understanding Skill Demand Across Cities and Roles
 
 This project scrapes job listings from LinkedIn to analyze skill demand trends across cities and roles, specifically focusing on the **Data Analyst** role. The project processes the scraped data to identify the top skills required and visualizes them using heatmaps. It also generates insights for businesses and job seekers to understand the market demand for various skills across different locations.
 
