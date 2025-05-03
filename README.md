@@ -111,3 +111,85 @@ The analysis includes a **heatmap** showing the demand for top 10 skills across 
 5. **Exporting Data**: All the results are saved in CSV files for further analysis.
 
 
+
+
+
+##Project-2
+# 📊 HR Analytics - Predict Employee Attrition
+
+This project combines an interactive Power BI dashboard with a machine learning model to analyze and predict employee attrition. It leverages real-world HR data to visualize trends, identify high-risk segments, and build predictive models to support data-driven HR decisions.
+
+---
+
+## 🔍 Overview
+
+The goal is to help HR departments and leadership teams understand employee turnover using data analysis and machine learning techniques. The project has two main parts:
+
+1. 📈 **Power BI Dashboard** – for data visualization and trend analysis
+2. 🤖 **Python ML Model** – for predicting whether an employee is likely to leave
+
+---
+
+## 📁 Dataset
+
+- **File Name**: `Employee Attrition.csv`
+- **Records**: ~1,470 employees
+- **Features**:
+  - Demographics: `Age`, `Gender`, `MaritalStatus`
+  - Employment details: `JobRole`, `Department`, `YearsAtCompany`, `MonthlyIncome`
+  - Satisfaction metrics: `JobSatisfaction`, `WorkLifeBalance`
+  - Target variable: `Attrition`
+
+---
+
+## 📊 Power BI Dashboard Features
+
+### ✅ KPI Cards
+- Total Employees
+- Employees Left
+- Attrition Rate
+- Average Monthly Income
+- Average Age
+- Average Years at Company
+
+### 📊 Visuals
+- Age Distribution by Attrition
+- Attrition by Department and Job Role
+- Waterfall Chart: Department-wise Attrition Contribution
+- Job Satisfaction vs. Attrition
+- Monthly Income vs. Attrition
+
+### 🎛️ Interactive Filters
+- Gender, Job Role, Department, Education Field, Work-Life Balance, Years at Company
+
+---
+
+## 🤖 Machine Learning Model (Python)
+
+A simple ML pipeline built using **Pandas**, **Scikit-learn**, **Seaborn**, and **Matplotlib** to predict employee attrition.
+
+### 🧪 Models Used:
+- Decision Tree Classifier (default)
+- Logistic Regression (optional)
+
+### 🧰 Process:
+1. Label Encoding of categorical variables
+2. Train/Test split (80/20)
+3. Model training and prediction
+4. Evaluation: Accuracy, Confusion Matrix, and Classification Report
+
+### 📌 Sample Output:
+```bash
+Accuracy: 0.83
+
+Classification Report:
+              precision    recall  f1-score   support
+           0       0.86      0.92      0.89       252
+           1       0.64      0.47      0.54        42
+
+Confusion Matrix:
+[[232  20]
+ [ 22  20]]
+
+
+
