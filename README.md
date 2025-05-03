@@ -114,7 +114,7 @@ The analysis includes a **heatmap** showing the demand for top 10 skills across 
 
 
 
-##Project-2
+## Project-2
 # 📊 HR Analytics - Predict Employee Attrition
 
 This project combines an interactive Power BI dashboard with a machine learning model to analyze and predict employee attrition. It leverages real-world HR data to visualize trends, identify high-risk segments, and build predictive models to support data-driven HR decisions.
